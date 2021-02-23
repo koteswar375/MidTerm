@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace MidTerm
 {
-    public partial class Form1 : Form
+    public partial class MagicSquare : Form
     {
         Button buttonBeingDragged;
-        public Form1()
+        public MagicSquare()
         {
             InitializeComponent();
             ComputeSumOfAllLabels();
@@ -112,7 +112,9 @@ namespace MidTerm
             button.Text = e.Data.GetData(DataFormats.Text).ToString();
             ComputeSumOfAllLabels();
         }
-      
+
         #endregion
+
+
     }
 }

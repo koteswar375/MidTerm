@@ -117,7 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>A new school has exactly 1,000 lockers and exactly 1,000 students. On
+the first day of school, the students meet outside the building and agree
+on the following plan: the first student will enter the school and open all
+the lockers. The second student will then enter the school and close
+every locker with an even number (2, 4, 6, a, etc.). The third student will
+then reverse every third locker (3, 6, 9, 12, etc.). That is if the locker is
+closed, he or she will open it; if it is open, he or she will close it. The
+fourth student will then reverse every fourth locker, and so on until all
+1000 students in turn have entered the building and reversed the proper
+lockers. Which lockers will finally remain open?</value>
+  </data>
 </root>

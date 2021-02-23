@@ -117,7 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Tom is from the U.S. Census Bureau and greets Mary at her door. They
+have the following conversation:
+Tom: I need to know how old your three kids are.
+Mary: The product of their ages is 36.
+Tom: I still don't know their ages.
+Mary: The sum of their ages is the same as my house number.
+Tom: I still don't know their ages.
+Mary: The younger two are twins.
+Tom: Now I know their ages! Thanks!
+How old are Mary's kids and what is Mary's house number?</value>
+  </data>
 </root>

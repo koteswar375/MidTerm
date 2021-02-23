@@ -1,7 +1,7 @@
 ﻿
 namespace MidTerm
 {
-    partial class Form1
+    partial class MagicSquare
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@ namespace MidTerm
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.row1col1 = new System.Windows.Forms.Button();
             this.row2col1 = new System.Windows.Forms.Button();
             this.row2col2 = new System.Windows.Forms.Button();
@@ -46,6 +47,7 @@ namespace MidTerm
             this.col3sum = new System.Windows.Forms.Label();
             this.topleftdiagonal = new System.Windows.Forms.Label();
             this.bottomleftdiagonal = new System.Windows.Forms.Label();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // row1col1
@@ -223,17 +225,22 @@ namespace MidTerm
             // 
             // bottomleftdiagonal
             // 
-            this.bottomleftdiagonal.Location = new System.Drawing.Point(439, 32);
+            this.bottomleftdiagonal.Location = new System.Drawing.Point(528, 49);
             this.bottomleftdiagonal.Name = "bottomleftdiagonal";
             this.bottomleftdiagonal.Size = new System.Drawing.Size(56, 32);
             this.bottomleftdiagonal.TabIndex = 15;
             this.bottomleftdiagonal.Text = "label8";
             // 
-            // Form1
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
+            // MagicSquare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(588, 508);
+            this.ClientSize = new System.Drawing.Size(607, 508);
             this.Controls.Add(this.bottomleftdiagonal);
             this.Controls.Add(this.topleftdiagonal);
             this.Controls.Add(this.col3sum);
@@ -251,7 +258,7 @@ namespace MidTerm
             this.Controls.Add(this.row2col2);
             this.Controls.Add(this.row2col1);
             this.Controls.Add(this.row1col1);
-            this.Name = "Form1";
+            this.Name = "MagicSquare";
             this.Text = "Magic Square 3x3";
             this.ResumeLayout(false);
 
@@ -276,6 +283,7 @@ namespace MidTerm
         private System.Windows.Forms.Label col3sum;
         private System.Windows.Forms.Label topleftdiagonal;
         private System.Windows.Forms.Label bottomleftdiagonal;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 
